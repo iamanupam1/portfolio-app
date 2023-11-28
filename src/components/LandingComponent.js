@@ -8,13 +8,11 @@ const LandingComponent = () => {
       <div id="hero-component">
         <NavbarComponent />
         <div className="text-white h-hero-screen flex items-center justify-center">
-          <div className="hero-description">
-            <h1 className="text-7xl uppercase">
+          <div className="hero-description px-2 sm:px-5 text-center uppercase">
+            <h1 className="md:text-7xl text-4xl">
               Anupam Dhakal<span className="text-cyan-400 ml-1">.</span>
             </h1>
-            <h3 className="text-4xl text-center uppercase">
-              Software Engineer
-            </h3>
+            <h3 className="md:text-4xl text-xl">Software Engineer</h3>
           </div>
         </div>
       </div>

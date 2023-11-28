@@ -11,7 +11,7 @@ export default function NavbarComponent() {
     >
       <Navbar.Brand as={Link} href="/">
         <span className="self-center whitespace-nowrap text-2xl font-semibold dark:text-white">
-          anupamdkl .
+          anupamdkl<span className="text-cyan-400 ml-1">.</span>
         </span>
       </Navbar.Brand>
       <Navbar.Toggle />
