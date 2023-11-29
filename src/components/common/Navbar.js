@@ -5,10 +5,7 @@ import { Navbar } from "flowbite-react";
 
 export default function NavbarComponent() {
   return (
-    <Navbar
-      fluid
-      className="bg-transparent text-white px-5 md:px-10 md:py-3 sticky top-0 z-99"
-    >
+    <Navbar fluid className="bg-transparent text-white px-5 md:px-10 md:py-3">
       <Navbar.Brand as={Link} href="/">
         <span className="self-center whitespace-nowrap text-2xl font-semibold dark:text-white">
           anupamdkl<span className="text-cyan-400 ml-1">.</span>
@@ -18,7 +15,7 @@ export default function NavbarComponent() {
       <Navbar.Collapse className="lowercase">
         <Navbar.Link
           className="text-white text-lg  md:hover:text-cyan-400 hover:text-cyan-400 hover:bg-gray-500"
-          href="#"
+          href="#hero"
         >
           <span className="mr-1 text-cyan-400 font-semibold">I.</span>Home
         </Navbar.Link>

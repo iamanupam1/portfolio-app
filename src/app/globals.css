@@ -5,7 +5,7 @@
 body {
   background: black;
 }
-#hero-component {
+#hero {
   height: 100vh;
   background-image: linear-gradient(
       to right,
@@ -18,7 +18,7 @@ body {
   background-repeat: no-repeat;
 }
 
-#hero-component::before {
+#hero::before {
   content: "";
   position: absolute;
   bottom: 0;
