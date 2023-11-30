@@ -3,10 +3,10 @@ import TitleComponent from "../ui/TitleComponent";
 
 const Expertise = () => {
   return (
-    <div id="expertise" className="text-white py-5 md:py-8">
+    <div id="expertise" className="text-white pb-5 md:pb-8">
       <TitleComponent title="My Expertise" />
       <div className="flex flex-wrap justify-center">
-        <div className="max-w-sm  overflow-hidden m-4 border border-gray-500">
+        <div className="max-w-sm overflow-hidden m-4 border border-gray-500">
           <div className="px-6 py-4">
             <div className="font-semibold text-xl md:text-3xl mb-5">
               Frontend Dev React, NextJS

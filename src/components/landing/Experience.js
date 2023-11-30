@@ -8,12 +8,12 @@ import {
 
 const Experience = () => {
   return (
-    <div id="experience" className="text-white py-5 md:py-8">
+    <div id="experience" className="text-white pb-5 md:pb-8">
       <TitleComponent title="Professional Experience" />
-      <div className="md:mx-[150px] mx-[60px] pt-4">
-        <Accordion className="rounded-0">
+      <div className="flex flex-wrap justify-center pt-4 mx-5">
+        <Accordion className="rounded-none lg:w-[750px] w-sm">
           <AccordionPanel>
-            <AccordionTitle>
+            <AccordionTitle className="text-white bg-transparent hover:bg-transparent focus:ring-0">
               Software Engineer @ Tekvortex Pvt Ltd.
             </AccordionTitle>
             <AccordionContent>
@@ -30,7 +30,7 @@ const Experience = () => {
             </AccordionContent>
           </AccordionPanel>
           <AccordionPanel>
-            <AccordionTitle>
+            <AccordionTitle className="text-white bg-transparent hover:bg-transparent focus:ring-0">
               Associate Frontend Developer @ Medmax Innovation
             </AccordionTitle>
             <AccordionContent>
