@@ -16,6 +16,9 @@ module.exports = {
       height: {
         "hero-screen": "calc(100vh - 112px)",
       },
+      colors: {
+        customGray: "#0f0f0f",
+      },
     },
   },
   plugins: [require("flowbite/plugin")],

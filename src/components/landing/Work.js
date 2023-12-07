@@ -1,24 +1,69 @@
 import React from "react";
 import TitleComponent from "../ui/TitleComponent";
+import Link from "next/link";
 
 const Work = () => {
   return (
     <div id="work" className="text-white pb-5 md:pb-8">
       <TitleComponent title="My Work" />
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-        {/* Card 1 */}
-        <div className="bg-gray-100 p-4 rounded-md">{/* Content */}</div>
 
-        {/* Card 2 */}
-        <div className="bg-gray-200 p-6 rounded-lg">{/* Content */}</div>
+      <div className="flex flex-wrap justify-center">
+        <div className="max-w-sm lg:flex-1 overflow-hidden m-4 transform hover:scale-105 transition duration-300">
+          <div className="font-semibold text-xl md:text-3xl hover:cursor-pointer ">
+            <img
+              src="https://via.placeholder.com/300"
+              alt="Placeholder"
+              className="w-full h-full object-cover"
+            />
+          </div>
+          <div className="bg-customGray py-2 px-5">
+            <h3 className="font-semibold">Passionate about UI/UX.</h3>
+            <a
+              href=""
+              className="text-white cursor-pointer hover:text-blue-500 text-base"
+            >
+              Learn More
+            </a>
+          </div>
+        </div>
 
-        {/* Card 3 */}
-        <div className="bg-gray-300 p-8 rounded-xl">{/* Content */}</div>
+        <div className="max-w-sm lg:flex-1 overflow-hidden m-4 transform hover:scale-105 transition duration-300">
+          <div className="font-semibold text-xl md:text-3xl hover:cursor-pointer ">
+            <img
+              src="https://via.placeholder.com/300"
+              alt="Placeholder"
+              className="w-full h-full object-cover"
+            />
+          </div>
+          <div className="bg-customGray py-2 px-5">
+            <h3 className="font-semibold">Passionate about UI/UX.</h3>
+            <a
+              href=""
+              className="text-white cursor-pointer hover:text-blue-500 text-base"
+            >
+              Learn More
+            </a>
+          </div>
+        </div>
 
-        {/* Card 4 */}
-        <div className="bg-gray-400 p-10 rounded-2xl">{/* Content */}</div>
-
-        {/* Add more cards with different classes as needed */}
+        <div className="max-w-sm lg:flex-1 overflow-hidden m-4 transform hover:scale-105 transition duration-300">
+          <div className="font-semibold text-xl md:text-3xl hover:cursor-pointer ">
+            <img
+              src="https://via.placeholder.com/300"
+              alt="Placeholder"
+              className="w-full h-full object-cover"
+            />
+          </div>
+          <div className="bg-customGray py-2 px-5">
+            <h3 className="font-semibold">Passionate about UI/UX.</h3>
+            <a
+              href=""
+              className="text-white cursor-pointer hover:text-blue-500 text-base"
+            >
+              Learn More
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   );

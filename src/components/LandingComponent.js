@@ -8,7 +8,7 @@ const LandingComponent = () => {
     <div id="landing-root">
       <Hero />
       <Expertise />
-      {/* <Work /> */}
+      <Work />
       <Experience />
     </div>
   );
